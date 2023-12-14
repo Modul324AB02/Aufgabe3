@@ -42,7 +42,7 @@ app.get("/", function(req, res) {
     res.render("index", { task: task, complete: complete });
 });
 
-//set app to listen on port 4200
-app.listen(4200, function() {
-    console.log("server is running on port 4200");
+//set app to listen on port 5000
+app.listen(5000, function() {
+    console.log("server is running on port 5000");
 });
